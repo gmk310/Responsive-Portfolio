@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="header width-100">
+        <div class="max-width center">
+            <h1>Gina Kozar</h1>
+            <p>Student Bio</p>
+        </div>
+    </div>
+
+    <div class="topnav width-100">
+        <div class="max-width center">
+            <a href="#" style="float:right">Contact</a>
+            <a href="portfolio.html" style="float:right">Portfolio</a>
+            <a href="index.html" style="float:right">About</a>
+        </div>
+    </div>
+
+    <div class="row width-100">
+        <div class="max-width container center">
+            <div class="column">
+                <h2>Contact</h2>
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+
+            </div>
+            <div class="column text-center">
+                <h2>Connect With Me</h2>
+
+                <img src="Assets/Images/linkedin.png" alt="Linkedin" style="width:10%">
+                <img src="Assets/Images/github.jpg" alt="Github" style="width:10%">
+                <img src="Assets/Images/stackoverflow.png" alt="Stack" style="width:10%">
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
