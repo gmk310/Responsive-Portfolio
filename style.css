@@ -30,6 +30,27 @@ body {
   margin: auto;
 }
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
 /* Style the header */
 
 .header {
@@ -82,22 +103,40 @@ body {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 
 /* Betwween 768 and 980px */
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+  .max-width {
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .max-width {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .max-width {
+    width: 980px;
+  }
+}
+/* @media screen and (max-width: 980px) {
   .max-width {
     width: 768px;
   }
 }
 
 /* Betwween 640 and 768px */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .max-width {
     width: 640px;
   }
-}
+} */
 
 /* Betwween ? and 640px */
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   .max-width {
     width: 640px;
   }
-}
+} */
